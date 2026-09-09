@@ -4,8 +4,6 @@
 
 This repo is a living collection of battle-tested ops patterns — zero theory, exact commands, and a verification checklist with every playbook. Every pattern here was **written from a real incident** that cost time or money before we figured it out.
 
-> "AI wrote the code. The watchdog caught the crash. The audit proved it was fixed." — this repo's goal
-
 ---
 
 ## 👀 What's inside
@@ -19,6 +17,18 @@ This repo is a living collection of battle-tested ops patterns — zero theory, 
 | 5 | [Provider Fallback Chain](./skills/provider-fallback-chain/README.md) | Your API provider goes down — 7 seconds of config keeps you running | 🆕 |
 | 6 | [Model Routing Diagnostics](./skills/model-routing-diagnostics/README.md) | Base URL mismatch? Session cache stale? One command finds out | 🆕 |
 | 7 | [WeChat Message Rules](./skills/wechat-message-rules/README.md) | Rate limits, retries, dedup — keep an agent alive on chat platforms | 🆕 |
+
+> **"AI wrote the code. The watchdog caught the crash. The audit proved it was fixed."**
+
+---
+
+## 🇨🇳 中文说明
+
+> 这个仓库是 **AI Agent 运维实战手册**——所有内容来自真实线上事故。
+> 你跑 agent 时遇到过的：API 挂了自动降级没生效？配置改了没重启？会话日志炸了磁盘？
+> 每个 playbook 都是一个具体问题的检查清单，**复制粘贴就能用**。
+>
+> 7 篇已发布，持续更新中。欢迎 Star ⭐
 
 ---
 
